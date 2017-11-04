@@ -4,24 +4,17 @@
 
 .App-logo {
   height: 320px;
+  border-radius: 50%;
 }
 
 .App-header {
-  background-color: #CCF388;
+  background-color: #C70039;
   height: 600px;
   padding: 80px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
