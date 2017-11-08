@@ -10,7 +10,9 @@ class Experience extends Component {
           <h1 className= "App-title">What I Build</h1>
             <ExperienceCard 
               title = 'StartupTree'
-              when = 'Summer 2017'>
+              description = 'Built mobile app messaging platform and events feed.  I specialzed in building
+              the login page and adding search functionality to the feeds.  This app is on its way to
+              the app store and the will be availible at around 20 schools who requested it.'>
             </ExperienceCard>
         </header>      
       </div>
