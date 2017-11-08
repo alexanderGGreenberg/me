@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import alexFace from './alexFace.svg';
 import AboutMe from './AboutMe'
 import './App.css';
+import Experience from './Experience';
+import './Experience';
+
 
 class App extends Component {
   render() {
@@ -14,6 +17,8 @@ class App extends Component {
         </header>
         <AboutMe>
         </AboutMe>
+        <Experience>
+        </Experience>
       </div>
 
 
