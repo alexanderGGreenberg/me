@@ -6,8 +6,6 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-                  
-
         <header className="AboutMe-title">
           <h1 className= "App-title">About Me</h1>
           <p className= "AboutMe-par">

@@ -4,12 +4,25 @@
   padding: 10px;
   position: relative;
   float: right;
-  vertical-align: top;
 
 }
 .ExperienceCard-description {
   font-size: 1em;
   color: black;
-  width: 500px;
   float: left;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 20vw 1vw 1vw;
+  grid-gap: 1em;
+}
+
+main,
+aside {
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

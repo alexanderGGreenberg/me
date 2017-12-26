@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 import './ExperienceCard.css';
 
+
+
 class ExperienceCard extends Component {
   render() {
+    console.log(this.props.description)
+    console.log(this.props.title)
     return (
-      <div>
-        <div className="ExperienceCard-title">
-          { this.props.title }  
-        </div>
-        <div className = "ExperienceCard-description">
+      <div class= "wrapper">
+        <aside>
+          {this.props.title}
+        </aside>
+        <main>
           {this.props.description}
-        </div>
+        </main>
       </div>
+     
     );
   }
 }
