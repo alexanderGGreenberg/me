@@ -1,9 +1,9 @@
-.AboutMe-title {
-  font-size: 2em;
+.AboutMe-wrapper {
+  font-size: 3vw;
   color: #C70039;
 }
 .AboutMe-par {
 	font-size: 1em;
   	color: black;
-  	padding: 80px;
+  	padding: 1em
 }

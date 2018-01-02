@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import alexFace from './alexFace.svg';
+import alexFace from './static/image/alexFace.svg';
+import gitHub from './static/image/gitHub.svg';
+import linkedin from './static/image/linkedin.svg';
 import AboutMe from './AboutMe'
 import './App.css';
 import Experience from './Experience';
@@ -9,7 +11,6 @@ import './Experience';
 class App extends Component {
   render() {
     return (
-
       <div className="App">
         <header className="App-header">
           <img src={alexFace} className="App-logo" alt="logo" />

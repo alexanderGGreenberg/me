@@ -5,10 +5,8 @@ import './ExperienceCard.css';
 
 class ExperienceCard extends Component {
   render() {
-    console.log(this.props.description)
-    console.log(this.props.title)
     return (
-      <div class= "wrapper">
+      <div class= "ExperienceCard-wrapper">
         <aside>
           {this.props.title}
         </aside>

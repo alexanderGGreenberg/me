@@ -6,27 +6,34 @@ class Experience extends Component {
   render() {
     return (
       <div>
-        <header className="Experience-title">
-          <h1 className= "App-title">What I'm up to</h1>
+        <header>
+          <h1 className= "Experience-title">What I'm up to</h1>
             <ExperienceCard 
               title = 'StartupTree'
-              description = 'Built mobile app messaging platform and events feed.  I specialzed in building
-              the login page and adding search functionality to the feeds.  This app is on its way to
-              the app store and the will be availible at around 20 schools who requested it.'>
-            </ExperienceCard>
-            <ExperienceCard 
-              title = 'Big Red Hacks'
-              description = 'Made front end of mobile app in React Native, it was ok.  Provide dat link
-              and boot it.  LOL!'>
+              description = 'Built mobile app messaging platform and events feed.  I built several feeds
+              for events and .'>
             </ExperienceCard>
             <ExperienceCard
               title = 'CS 3410 Course Staff'
-              description = 'Next semester I will be working as a TA on the CS 3410 course staff!  This is p cool
-              stuff because it means I get to teach ppl how to make a processor and be so cool and stuff.  As
-              always smash dat link or whateva its tite yo TITE'>
+              description = 'Next semester I will be working as a TA on the Computer System Organization and
+              Programming (CS 3410) course staff.  CS 3410 is a fast past class that covers essential topics
+              such as processor design and pipeling, virtual memory and caching, MIPS assembly and C programming.
+              As a TA I will be holding office hours, helping lead a discussion section, and grading student work.'>
             </ExperienceCard>
-        </header>      
-      </div>
+            <ExperienceCard 
+              title = 'Big Red Hacks, Fall 2017'
+              description = 'At Big Red Hacks my team and I built a prototype for AnonAlert, an app
+              that designed for high school students to anonomoulsy raise their hand in class.  I built
+              the student frontend with React Native, which included an interface for starting a new session and
+              raising your hand'>
+            </ExperienceCard>
+            <ExperienceCard
+              title = 'Open Source Cornell'
+              description = 'This year I joined Open Source Cornell.  Next semester, as president, some of my 
+              responsabilites will be handling the website, and maintaining the wiki'>
+            </ExperienceCard>
+        </header>  
+      </div>  
     );
   }
 }

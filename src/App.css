@@ -3,18 +3,17 @@
 }
 
 .App-logo {
-  height: 320px;
+  height: 20em;
   border-radius: 50%;
 }
 
 .App-header {
   background-color: #B31B1B;
-  height: 600px;
-  padding: 80px;
+  padding: 10em;
   color: white;
 }
 
 .App-title {
-  font-size: 3em;
+  font-size: 3vw;
 }
 
