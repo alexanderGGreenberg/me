@@ -6,9 +6,9 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-        <header className="AboutMe-wrapper">
+        <header id="AboutMe-wrapper">
           <h1>About Me</h1>
-          <p className= "AboutMe-par">
+          <p id= "AboutMe-par">
             Hey! I'm a Sophomore at Cornell studying Computer Science.  I'm an overnight oats addict 
             and technology lover.  I love learning new skills, getting lost on super long walks, 
             and playing ping pong.  Last summer at <a href="https://startuptree.co/"> StartupTree </a>
@@ -16,7 +16,8 @@ class AboutMe extends Component {
             React Native skills and bring them to web development.  This site will be updated 
             frequently as I learn more and more React.  I'm hoping to use my website to talk
             about my projects and goals, as well as learn React.
-          </p>  
+          </p>
+          
         </header> 
       </div>
 

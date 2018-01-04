@@ -11,10 +11,10 @@ import './Experience';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={alexFace} className="App-logo" alt="logo" />
-          <h1 className="App-title">Alex Greenberg</h1>
+      <div id="App">
+        <header id="App-header">
+          <img src={alexFace} id="App-logo" alt="logo" />
+          <h1 id="App-title">Alex Greenberg</h1>
         </header>
         <AboutMe>
         </AboutMe>

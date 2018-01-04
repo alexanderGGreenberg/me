@@ -1,9 +1,9 @@
-.AboutMe-wrapper {
+#AboutMe-wrapper {
   font-size: 3vw;
   color: #C70039;
 }
-.AboutMe-par {
+#AboutMe-par {
 	font-size: 1em;
   	color: black;
-  	padding: 1em
+  	padding: 1.5em
 }

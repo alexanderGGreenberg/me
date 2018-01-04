@@ -7,7 +7,7 @@ class Experience extends Component {
     return (
       <div>
         <header>
-          <h1 className= "Experience-title">What I'm up to</h1>
+          <h1 id= "Experience-title">What I'm up to</h1>
             <ExperienceCard 
               title = 'StartupTree'
               description = 'I built mobile app messaging platform and events feed.  
@@ -15,13 +15,13 @@ class Experience extends Component {
               login page and added search functionality to the app.'>
             </ExperienceCard>
             <ExperienceCard
-            title = 'Cornell Mars Rover'
-            description = 'This semester on the Cornell Mars Rover team I rewrote our 
-            formatting script to be faster and more useful.  I used Git to only format 
-            files that have been changed, and added options to format Python and C++ files, 
-            as well as to check for proper formatting, a feature our Travis CI tool uses.  
-            My most recent project was expanding our command macro syntax to support a macro 
-            command having nested lists of lists of command, which will be executed in sequence.'>
+              title = 'Cornell Mars Rover'
+              description = 'This semester on the Cornell Mars Rover team I rewrote our 
+              formatting script to be faster and more useful.  I used Git to only format 
+              files that have been changed, and added options to format Python and C++ files, 
+              as well as to check for proper formatting, a feature our Travis CI tool uses.  
+              My most recent project was expanding our command macro syntax to support a macro 
+              command having nested lists of lists of command, which will be executed in sequence.'>
             </ExperienceCard>
             <ExperienceCard
               title = 'CS 3410 Course Staff'
@@ -45,7 +45,7 @@ class Experience extends Component {
               president, some of my responsibilities will be handling the website, and 
               maintaining the Cornell CS wiki.'>
             </ExperienceCard>
-        </header>  
+          </header>
       </div>  
     );
   }

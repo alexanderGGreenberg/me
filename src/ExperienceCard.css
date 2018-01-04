@@ -1,4 +1,4 @@
-.ExperienceCard-title {
+#ExperienceCard-title {
   font-size: 3vw;
   color: black;
   padding: 2em;
@@ -6,20 +6,20 @@
   float: right;
 
 }
-.ExperienceCard-description {
+#ExperienceCard-description {
   font-size: 3vw;
   color: black;
   float: left;
 }
 
-.ExperienceCard-wrapper {
+#ExperienceCard-wrapper {
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 25% 70%;
   grid-template-rows: 20vw 1vw 1vw;
-  grid-gap: 1em;
+  grid-gap: 5%;
   color: white;
   font-size: 1.5em;
-  padding: 1.5em;
+  padding: 1.5em
 }
 
 main,
@@ -28,4 +28,5 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1em;
 }

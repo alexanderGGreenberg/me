@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import './ExperienceCard.css';
 
-
-
 class ExperienceCard extends Component {
   render() {
     return (
-      <div class= "ExperienceCard-wrapper">
+      <div id= "ExperienceCard-wrapper">
         <aside>
           {this.props.title}
         </aside>
