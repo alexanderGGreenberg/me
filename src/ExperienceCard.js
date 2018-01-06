@@ -4,7 +4,7 @@ import './ExperienceCard.css';
 class ExperienceCard extends Component {
   render() {
     return (
-      <div id= "ExperienceCard-wrapper">
+      <div id= "experiencecard--wrapper">
         <aside>
           {this.props.title}
         </aside>
