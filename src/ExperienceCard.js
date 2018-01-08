@@ -5,7 +5,7 @@ class ExperienceCard extends Component {
   render() {
     return (
       <div id= "experiencecard--wrapper">
-        <aside id = "experiencecard--wrapper-center">
+        <aside>
           {this.props.title}
         </aside>
         <main id = "experiencecard--wrapper-left">
