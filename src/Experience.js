@@ -6,7 +6,7 @@ class Experience extends Component {
   render() {
     return (
       <div>
-        <header>
+        <header id= 'experience--wrapper'>
           <h1 id= "experience--title">What I'm up to</h1>
             <ExperienceCard 
               title = 'StartupTree'

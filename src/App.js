@@ -3,9 +3,9 @@ import alexFace from './static/image/alexFace.svg';
 import gitHub from './static/image/gitHub.svg';
 import linkedin from './static/image/linkedin.svg';
 import AboutMe from './AboutMe'
-import './App.css';
 import Experience from './Experience';
-import './Experience';
+import Footer from './Footer';
+import './App.css';
 
 
 class App extends Component {
@@ -22,6 +22,8 @@ class App extends Component {
         </AboutMe>
         <Experience>
         </Experience>
+        <Footer>
+        </Footer>
       </div>
 
 
