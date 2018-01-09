@@ -18,7 +18,7 @@ class Experience extends Component {
               title = 'Cornell Mars Rover'
               description = 'This semester on the Cornell Mars Rover team I rewrote our 
               formatting script to be faster and more useful by formatting only changed files,
-              and adding having an option to check for proper formatting.  I also 
+              and adding an option to check for proper formatting.  I also 
               expanded our command macro syntax to support a macro command being a nested 
               lists of lists of commands, which will be executed in sequence.'>
             </ExperienceCard>
