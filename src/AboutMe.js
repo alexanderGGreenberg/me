@@ -8,20 +8,15 @@ class AboutMe extends Component {
       <div>
         <header id="aboutme--wrapper">
           <h1>About Me</h1>
-          <p id= "aboutme--par">
-            Hey! I'm a Sophomore at Cornell studying Computer Science.  I'm an overnight oats addict 
-            and technology lover.  I love learning new skills, getting lost on super long walks, 
-            and playing ping pong.  Last summer at <a href="https://startuptree.co/"> StartupTree </a>
-            my team and I became React Native and JavaScript experts.  Now I'm trying to take my
-            React Native skills and bring them to web development.  This site will be updated 
-            frequently as I learn more and more React.  I'm hoping to use my website to talk
-            about my projects and goals, as well as learn React.
-          </p>
-          
-        </header> 
+            <p id = "aboutme--par">
+              Hey! I'm a Junior at Cornell studying Computer Science.  I care a lot about making intuitive and impactful software.  
+              Last Summer I learned to create power, maintainable and efficient low-level tools at Intel.
+              Over the Summer of 2017 my team and I became experts at mobile development and React Native at
+              <a href="https://startuptree.co/"> StartupTree </a>.  Want to get in contact or ask a question?
+              Feel free to <a href="mailto:agg73@cornell.edu">talk to me!</a>
+            </p>
+        </header>
       </div>
-
-
     );
   }
 }
