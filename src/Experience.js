@@ -33,8 +33,8 @@ class Experience extends Component {
               description = 'For the last two semesters I have been working as a TA on the Computer 
               System Organization and Programming (CS 3410) course staff.  CS 3410 
               covers essential topics such as processor design and pipelining, 
-              virtual memory, and C programming. As a TA I will be holding office hours, 
-              helping lead a discussion section, and grading student work.'>
+              virtual memory, and C programming. As a TA I hold office hours, 
+              help lead a discussion section, and grade student work.'>
             </ExperienceCard>
             <ExperienceCard 
               title = 'Big Red Hacks, Fall 2017'
